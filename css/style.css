@@ -1,0 +1,10 @@
+header {
+  height: 800px;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+  color: aqua;
+  letter-spacing: 1px;
+}
