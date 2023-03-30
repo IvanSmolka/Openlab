@@ -7,8 +7,9 @@ header,
 nav {
   font-family: "SF Pro Display", sans-serif;
   height: 49px;
-  max-width: 1140px;
+  max-width: 1320px;
   margin: 0 auto;
+  margin-top: 0.35rem;
   align-items: center;
   border-bottom: 1px solid #d7eaff;
 }
@@ -123,7 +124,7 @@ nav .btn-nav {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1320px;
   margin: 0 auto;
 }
 
