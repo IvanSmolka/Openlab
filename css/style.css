@@ -158,7 +158,6 @@ nav .btn-nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  overflow: hidden;
 }
 
 .first-sec .container {
@@ -169,21 +168,122 @@ nav .btn-nav {
 }
 
 .second-sec {
-  height: 527px;
+  height: 431px;
   text-align: center;
+  padding: 48px 0;
   font-family: "SF Pro Display", sans-serif;
+}
+
+.second-sec .sec-background {
+  position: absolute;
+  right: -241px;
+  top: 330px;
 }
 
 .second-sec h1 {
   font-weight: normal;
   font-size: 40px;
+  letter-spacing: 1px;
   color: #212529;
-  padding-top: 48px;
   margin-bottom: 3rem;
 }
 
 .second-sec p {
   letter-spacing: 1px;
+  line-height: 1.5;
   color: #566b8d;
   margin: 0 48px 16px;
+}
+
+.sec-icons {
+  font-family: "SF Pro Display", sans-serif;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sec-select,
+.sec-support,
+.sec-intership {
+  width: 306px;
+  height: 151px;
+  padding: 48px 12px 0px 12px;
+}
+.sec-select p,
+.sec-support p,
+.sec-intership p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+.sec-select h2,
+.sec-support h2,
+.sec-intership h2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 0 0 8px 0;
+}
+.sec-select div,
+.sec-support div,
+.sec-intership div {
+  padding: 16px 0;
+}
+
+.third-sec {
+  font-family: "SF Pro Display", sans-serif;
+  text-align: left;
+  padding: 48px 0;
+  padding-left: 1rem;
+  display: flex;
+}
+.third-sec h1 {
+  font-weight: normal;
+  font-size: 40px;
+  color: #212529;
+}
+.third-sec p {
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #566b8d;
+}
+.third-sec .third-left, .third-sec .third-right {
+  width: 50%;
+}
+
+.third-right {
+  display: grid;
+  grid-template-columns: 283px 283px;
+  justify-content: end;
+}
+
+.third-right .ico1,
+.third-right .ico2,
+.third-right .ico3,
+.third-right .ico4 {
+  height: 183px;
+  width: 223px;
+  padding: 16px 24px;
+  display: block;
+  border: 1px solid black;
+}
+.third-right .ico1 h1,
+.third-right .ico2 h1,
+.third-right .ico3 h1,
+.third-right .ico4 h1 {
+  font-size: 90px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.third-right .ico1 p,
+.third-right .ico2 p,
+.third-right .ico3 p,
+.third-right .ico4 p {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
 }

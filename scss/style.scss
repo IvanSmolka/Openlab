@@ -213,7 +213,7 @@ nav .btn-nav {
     justify-content: center;
 
 
-    overflow: hidden
+    //overflow: hidden
 }
 
 .first-sec .container {
@@ -221,31 +221,156 @@ nav .btn-nav {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 80% 15px;
+
 }
 
 // Section 2
 
 .second-sec {
-    height: 527px;
+    height: 431px;
     text-align: center;
 
+    padding: 48px 0;
+
     font-family: 'SF Pro Display', sans-serif;
+
+    // Najskôr som to skúšal takto ale nakoniec som sa rozhodol pre img tag priamo v html
+
+    //background-image: url("https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/o_letter.png");
+    //background-size: contain;
+    //background-repeat: no-repeat;
+    //background-position: calc(100% + 241px) -241px;
+    
 }
+
+.second-sec .sec-background {
+    position: absolute;
+    right: -241px;
+    top: 330px;
+}
+
 
 .second-sec h1 {
     font-weight: normal;
     font-size: 40px;
+    letter-spacing: 1px;
 
     color: $section-2-label-color;
 
-    padding-top: 48px;
     margin-bottom: 3rem;
 }
 
 .second-sec p {
     letter-spacing: 1px;
+    line-height: 1.5;
     color: $section-2-font-color;
     margin: 0 48px 16px;
+}
+
+.sec-icons {
+    font-family: 'SF Pro Display', sans-serif;
+    text-align: left;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sec-select,
+.sec-support,
+.sec-intership {
+    width: 306px;
+    height: 151px;
+
+    padding: 48px 12px 0px 12px;
+    
+   & p {  
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+
+    padding: 0;
+    margin: 0;   
+   }
+   
+   & h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+
+    margin: 0 0 8px 0;
+   }
+
+   & div {
+    padding: 16px 0;
+   }
+}
+
+// Section 3
+
+.third-sec {
+    font-family: 'SF Pro Display', sans-serif;
+    text-align: left;
+
+    padding: 48px 0;
+    padding-left: 1rem;
+
+    display: flex;
+    
+
+    & h1 {
+        font-weight: normal;
+        font-size: 40px;
+        color: $section-2-label-color;
+    }
+
+    & p {
+        letter-spacing: 1px;
+        line-height: 1.5;
+        color: $section-2-font-color;
+    }
+
+    & .third-left,
+    & .third-right {
+        width: 50%;
+        //display: inline-block;
+    }
+}
+
+.third-right {
+    display:grid;
+    grid-template-columns: 283px 283px;
+    //grid-row: auto auto;
+    justify-content: end;
+  
+}
+
+.third-right .ico1,
+.third-right .ico2,
+.third-right .ico3,
+.third-right .ico4 {
+
+    height: 183px;
+    width: 223px;
+
+    padding: 16px 24px;
+    display: block;
+
+    border: 1px solid black;
+
+    & h1 {
+        font-size: 90px;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+    }
+
+    & p {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+    }
+
 }
 
 
