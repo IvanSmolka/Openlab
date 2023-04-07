@@ -1,0 +1,79 @@
+// Header
+
+html,
+body {
+    margin: 0;
+}
+
+header,
+nav {
+    font-family: 'SF Pro Display', sans-serif;
+
+    height: 49px;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 0.35rem;
+
+    align-items: center;
+    
+    border-bottom: 1px solid $header-border;
+}
+
+.header {
+    text-align: center;
+    margin: 0;
+}
+
+.header p {
+    font-weight: 400;
+
+    font-size: 13px;
+
+    color: $font-color;
+
+    letter-spacing: 0.8px;
+    margin-right: 48px;
+    margin-top: 15px;
+    
+
+    display: inline-block;
+}
+
+.header a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0,8px;
+    line-height: 1.2;
+    color: $discord-btn-font-color;
+
+    width: 165.5px;
+    height: 20px;
+
+    padding: 6px 10px;
+    vertical-align: middle;
+
+    border: 1px solid $discord-btn-bg-color;
+    border-radius: 32px;
+
+    position: relative;
+        
+    background-color: $discord-btn-bg-color;
+
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+        cursor: pointer;
+    }
+   
+}
+
+.header a img {
+    position: relative;
+    top: 2.5px;
+}

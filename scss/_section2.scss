@@ -1,0 +1,80 @@
+// Section 2
+
+.second-sec {
+    height: 431px;
+    text-align: center;
+
+    padding: 48px 0;
+
+    font-family: 'SF Pro Display', sans-serif;
+
+    // Najskôr som to skúšal takto ale nakoniec som sa rozhodol pre img tag priamo v html
+
+    //background-image: url("https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/o_letter.png");
+    //background-size: contain;
+    //background-repeat: no-repeat;
+    //background-position: calc(100% + 241px) -241px;
+    
+}
+
+.second-sec .sec-background {
+    position: absolute;
+    right: -241px;
+    top: 330px;
+}
+
+
+.second-sec h1 {
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 1px;
+
+    color: $section-2-label-color;
+
+    margin-bottom: 3rem;
+}
+
+.second-sec p {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: $section-2-font-color;
+    margin: 0 48px 16px;
+}
+
+.sec-icons {
+    font-family: 'SF Pro Display', sans-serif;
+    text-align: left;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sec-select,
+.sec-support,
+.sec-intership {
+    width: 306px;
+    height: 151px;
+
+    padding: 48px 12px 0px 12px;
+    
+   & p {  
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+
+    padding: 0;
+    margin: 0;   
+   }
+   
+   & h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+
+    margin: 0 0 8px 0;
+   }
+
+   & div {
+    padding: 16px 0;
+   }
+}

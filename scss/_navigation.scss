@@ -1,0 +1,81 @@
+// Navigation
+
+ul,
+li,
+.logo {
+    display: inline-block;
+    margin: 12px 0;
+}
+
+nav {
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: none;
+    margin: 2px auto;
+}
+
+.navigation {
+    flex-grow: 1;
+}
+
+.nav-icon {
+    
+    text-decoration: none;
+
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    color: $font-color;
+
+    padding: 8px;
+    margin-left: 1rem;
+
+    &:hover,
+    &:focus,
+    &:active {
+        cursor: pointer;
+        color: $btn-nav-back;
+    }
+}
+
+.btn-nav {
+    color: $btn-form-color;
+    background-color: $btn-nav-back;
+
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 45px;
+
+    width: 156.5px;
+    height: 45px;
+
+    text-align: center;
+
+    border: 1px solid $btn-nav-back;
+    border-radius: 6px;
+
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+        cursor: pointer;
+    }
+}
+
+.btn {
+    margin-right: 1rem;
+}
+
+.logo {
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+nav .btn-nav {
+    float: right;
+}
