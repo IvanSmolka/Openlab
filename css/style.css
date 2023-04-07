@@ -126,6 +126,8 @@ nav .btn-nav {
   height: 440px;
   font-family: "SF Pro Display", sans-serif;
   background-color: #3597FF;
+  position: relative;
+  z-index: -1;
   margin-bottom: 48px;
 }
 
@@ -172,12 +174,6 @@ nav .btn-nav {
   text-align: center;
   padding: 48px 0;
   font-family: "SF Pro Display", sans-serif;
-}
-
-.second-sec .sec-background {
-  position: absolute;
-  right: -241px;
-  top: 330px;
 }
 
 .second-sec h1 {
@@ -396,6 +392,22 @@ nav .btn-nav {
 .fift {
   font-family: "SF Pro Display", sans-serif;
   text-align: left;
+  padding: 48px 0;
+}
+.fift h1 {
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 0 64px;
+}
+.fift h3 {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 1px;
+  max-width: 50%;
+}
+.fift p {
+  color: #566b8d;
 }
 .fift img {
   max-width: 526px;
@@ -407,7 +419,36 @@ nav .btn-nav {
 .fift .schools-left, .fift .schools-right {
   width: 50%;
 }
+.fift .schools-left p, .fift .schools-right p {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0;
+}
+.fift .schools-left p::before, .fift .schools-right p::before {
+  content: url("https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/place.svg");
+  position: relative;
+  top: 5px;
+}
+.fift .schools-right {
+  margin-left: 48px;
+}
+.fift .school-web-adress {
+  max-width: 526px;
+  display: flex;
+  justify-content: space-between;
+}
+.fift .school-web-adress a {
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #3597FF;
+  align-self: flex-end;
+}
 
-body {
-  width: 100vw;
+main {
+  background-image: url("https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/o_letter.png");
+  background-size: 482px 482px;
+  background-repeat: no-repeat;
+  background-position: calc(100% + 241px) 200px;
+  z-index: 5;
 }

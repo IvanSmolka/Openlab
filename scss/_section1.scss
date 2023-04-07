@@ -5,8 +5,11 @@
 
     font-family: 'SF Pro Display', sans-serif;
     background-color: $btn-nav-back;
+    position: relative;
+    z-index: -1;
 
-    margin-bottom: 48px;   
+    margin-bottom: 48px; 
+    
 }
 
 .container {
@@ -54,5 +57,4 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 80% 15px;
-
 }
