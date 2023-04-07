@@ -1,0 +1,100 @@
+// Section 6
+
+.sixth {
+    font-family: 'SF Pro Display', sans-serif;
+    text-align: left;
+
+    //letter-spacing: 1px;
+
+    min-height: 556.656px;
+
+    margin-top: 48px;
+
+    background-color: $bg-lighter;
+    position: relative;
+    z-index: -1;
+
+
+    & .container {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    & h1 {
+        font-weight: normal;
+        font-size: 40px;
+    }
+
+    & a {
+        text-decoration: none;
+    }
+
+    & p.review {
+        letter-spacing: 1px;
+        line-height: 1.5rem;
+        font-size: 14px;
+        font-weight: bold;
+
+        color: $text-gray;
+
+        padding: 0 15.766px;
+        padding-top: 30px;
+    }
+
+    & p.review::before {
+        content: url('https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/quote.svg');
+        position: absolute;
+        top: 240px;
+        left: 0px;
+        
+    }
+
+    & .sixth-left {
+        width: 526px;
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+       
+        & .six-article-nav {
+            display: flex;
+            justify-content: space-between;
+     
+            & p.name {
+                letter-spacing: 1px;
+                line-height: 1.5rem;
+                font-size: 14px;
+                font-weight: normal;
+        
+                color: $text-gray;
+
+                padding: none;
+            }
+
+            & p.name::before {
+                content: url('https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/icon-person.svg');
+                position: relative;
+                top: 10px;
+            }
+
+            & .left-button,
+            & .right-button {              
+                margin: 0;
+                padding: 0;              
+            }
+
+            & .buttons {
+                align-self: center;
+            }
+        }
+    }
+
+    & img {
+        margin-left: 110px;
+        padding: 0 12px;
+    }
+
+}
