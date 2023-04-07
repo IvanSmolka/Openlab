@@ -336,10 +336,20 @@ nav .btn-nav {
   text-align: left;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   height: 240px;
   padding: 24px 0;
   margin: 50px auto;
+}
+.fourth-sec .fourth-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+}
+.fourth-sec .fourth-right {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
 }
 .fourth-sec h1, .fourth-sec h4 {
   font-weight: normal;
@@ -347,25 +357,42 @@ nav .btn-nav {
   color: #212529;
   margin: 0 0 8px 0;
 }
-.fourth-sec p, .fourth-sec h4 {
+.fourth-sec p, .fourth-sec h4, .fourth-sec img {
   font-size: 20px;
   padding: 0 48px;
+}
+.fourth-sec img {
+  height: 15px;
+  width: 28px;
+}
+.fourth-sec .arrow-blue {
+  display: none;
 }
 .fourth-sec p {
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 1.5;
   color: #566b8d;
+  min-height: 130px;
   margin: 0 0 10px 0;
 }
-.fourth-sec header {
-  border: none;
-  width: 34%;
-}
 .fourth-sec article {
-  width: 21.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33%;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .fourth-sec article:hover {
   box-shadow: 0px 0px 10px rgba(197, 197, 197, 0.61);
+}
+.fourth-sec article:hover .arrow-blue {
+  display: block;
+}
+.fourth-sec article:hover .arrow {
+  display: none;
+}
+
+body {
+  width: 100vw;
 }
