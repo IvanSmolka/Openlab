@@ -1,2 +1,20 @@
 // Section 5
 
+.fift {
+    font-family: 'SF Pro Display', sans-serif;
+    text-align: left;
+
+    & img {
+        max-width: 526px;
+        max-height: 270.250px;
+    }
+
+    & .schools {
+        display: flex;
+    }
+
+    & .schools-left,
+    & .schools-right {
+        width: 50%;
+    }
+}

@@ -393,6 +393,21 @@ nav .btn-nav {
   display: none;
 }
 
+.fift {
+  font-family: "SF Pro Display", sans-serif;
+  text-align: left;
+}
+.fift img {
+  max-width: 526px;
+  max-height: 270.25px;
+}
+.fift .schools {
+  display: flex;
+}
+.fift .schools-left, .fift .schools-right {
+  width: 50%;
+}
+
 body {
   width: 100vw;
 }
