@@ -130,6 +130,12 @@ nav .btn-nav {
   z-index: -1;
   margin-bottom: 48px;
 }
+.first-sec aside {
+  width: 100vw;
+  position: absolute;
+  top: 200px;
+  left: calc(100vw - 250px);
+}
 
 .container {
   max-width: 1320px;
@@ -515,11 +521,14 @@ nav .btn-nav {
   margin-left: 110px;
   padding: 0 12px;
 }
+.sixth aside {
+  width: 100vw;
+  position: absolute;
+  top: 355px;
+  left: calc(100vw - 350px);
+}
 
-main {
-  background-image: url("https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/o_letter.png");
-  background-size: 482px 482px;
-  background-repeat: no-repeat;
-  background-position: calc(100% + 241px) 200px;
-  z-index: 5;
+body {
+  width: 100%;
+  overflow-x: hidden;
 }

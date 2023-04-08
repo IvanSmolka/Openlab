@@ -9,6 +9,15 @@
     z-index: -1;
 
     margin-bottom: 48px; 
+
+    & aside {
+        width: 100vw;
+        
+        position: absolute;
+        top: 200px;
+        left: calc(100vw - 250px); 
+
+    }
     
 }
 
@@ -58,3 +67,5 @@
     background-repeat: no-repeat;
     background-position: 80% 15px;
 }
+
+

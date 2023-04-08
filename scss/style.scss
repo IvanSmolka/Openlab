@@ -13,11 +13,8 @@
 
 
 // Main
-
-main {
-    background-image: url("https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/o_letter.png");
-    background-size: 482px 482px;
-    background-repeat: no-repeat;
-    background-position: calc(100% + 241px) 200px;
-    z-index: 5;
+body {
+    width: 100%;
+    overflow-x: hidden;
 }
+
