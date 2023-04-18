@@ -76,7 +76,9 @@
 
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
             //border: 1px solid black;
             box-shadow: 0px 0px 10px rgba(197, 197, 197, 0.61);
             & .arrow-blue {

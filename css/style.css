@@ -385,13 +385,13 @@ nav .btn-nav {
   width: 33%;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.fourth-sec article:hover {
+.fourth-sec article:hover, .fourth-sec article:focus, .fourth-sec article:active {
   box-shadow: 0px 0px 10px rgba(197, 197, 197, 0.61);
 }
-.fourth-sec article:hover .arrow-blue {
+.fourth-sec article:hover .arrow-blue, .fourth-sec article:focus .arrow-blue, .fourth-sec article:active .arrow-blue {
   display: block;
 }
-.fourth-sec article:hover .arrow {
+.fourth-sec article:hover .arrow, .fourth-sec article:focus .arrow, .fourth-sec article:active .arrow {
   display: none;
 }
 
@@ -524,8 +524,55 @@ nav .btn-nav {
 .sixth aside {
   width: 100vw;
   position: absolute;
-  top: 355px;
+  top: -355px;
   left: calc(100vw - 350px);
+}
+
+.seventh {
+  font-family: "SF Pro Display", sans-serif;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.seventh h1 {
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  padding: 48px;
+}
+.seventh .grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.seventh article {
+  width: 308px;
+  padding: 24px 24px 24px 24px;
+  margin-top: 8px;
+}
+.seventh article h3 {
+  margin: 0;
+  margin-bottom: 8px;
+}
+.seventh article p {
+  font-weight: 400;
+  color: #566b8d;
+  line-height: 1.5;
+  min-height: 120px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.seventh article .arrow-blue {
+  display: none;
+}
+.seventh article:hover, .seventh article:focus, .seventh article:active {
+  box-shadow: 0px 0px 10px rgba(197, 197, 197, 0.61);
+}
+.seventh article:hover .arrow-blue, .seventh article:focus .arrow-blue, .seventh article:active .arrow-blue {
+  display: block;
+}
+.seventh article:hover .arrow, .seventh article:focus .arrow, .seventh article:active .arrow {
+  display: none;
 }
 
 body {
