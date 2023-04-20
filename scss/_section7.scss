@@ -20,7 +20,7 @@
         justify-content: center;
     }
 
-    & article {
+    & .grid article {
         // height: 242px;
         width: 308px;
 
@@ -59,6 +59,53 @@
             & .arrow {
                 display: none;
             }
+        }
+    }
+
+    & .move1 {
+        width: 519px;
+        height: 418px;
+
+        background-color: $bg-move1;
+        border-radius: 6px;
+
+        padding: 40px 32px;
+
+        & p,
+        & h3 {
+            color: $font-color-white;
+        }
+
+        & .heading {
+            font-size: 18px;
+
+            padding: 0;
+            padding-bottom: 16px;
+            margin: 0;
+
+            border-bottom: 1px rgba($color: #fff, $alpha: 0.5) solid;
+        }
+
+        & .moto {
+            font-size: 28px;
+
+            padding: 24px 0;
+            margin: 0;
+        }
+
+        & .txt {
+            font-size: 16px;
+
+            padding-bottom: 48px;
+            margin: 0;
+        }
+
+        & .name,
+        & .school {
+            font-size: 16px;
+
+            margin: 0;
+            padding: 0;
         }
     }
 }

@@ -544,16 +544,16 @@ nav .btn-nav {
   flex-direction: row;
   justify-content: center;
 }
-.seventh article {
+.seventh .grid article {
   width: 308px;
   padding: 24px 24px 24px 24px;
   margin-top: 8px;
 }
-.seventh article h3 {
+.seventh .grid article h3 {
   margin: 0;
   margin-bottom: 8px;
 }
-.seventh article p {
+.seventh .grid article p {
   font-weight: 400;
   color: #566b8d;
   line-height: 1.5;
@@ -562,17 +562,49 @@ nav .btn-nav {
   margin: 0;
   margin-bottom: 10px;
 }
-.seventh article .arrow-blue {
+.seventh .grid article .arrow-blue {
   display: none;
 }
-.seventh article:hover, .seventh article:focus, .seventh article:active {
+.seventh .grid article:hover, .seventh .grid article:focus, .seventh .grid article:active {
   box-shadow: 0px 0px 10px rgba(197, 197, 197, 0.61);
 }
-.seventh article:hover .arrow-blue, .seventh article:focus .arrow-blue, .seventh article:active .arrow-blue {
+.seventh .grid article:hover .arrow-blue, .seventh .grid article:focus .arrow-blue, .seventh .grid article:active .arrow-blue {
   display: block;
 }
-.seventh article:hover .arrow, .seventh article:focus .arrow, .seventh article:active .arrow {
+.seventh .grid article:hover .arrow, .seventh .grid article:focus .arrow, .seventh .grid article:active .arrow {
   display: none;
+}
+.seventh .move1 {
+  width: 519px;
+  height: 418px;
+  background-color: #A54FA2;
+  border-radius: 6px;
+  padding: 40px 32px;
+}
+.seventh .move1 p, .seventh .move1 h3 {
+  color: #fff;
+}
+.seventh .move1 .heading {
+  font-size: 18px;
+  padding: 0;
+  padding-bottom: 16px;
+  margin: 0;
+  border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+}
+.seventh .move1 .moto {
+  font-size: 28px;
+  padding: 24px 0;
+  margin: 0;
+}
+.seventh .move1 .txt {
+  font-size: 16px;
+  padding-bottom: 48px;
+  margin: 0;
+}
+.seventh .move1 .name, .seventh .move1 .school {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
