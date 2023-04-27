@@ -533,6 +533,29 @@ nav .btn-nav {
   text-align: left;
   letter-spacing: 1px;
 }
+.seventh .move1 {
+  position: relative;
+}
+.seventh .move1 .img-student {
+  position: absolute;
+  left: -700px;
+  top: 130px;
+  opacity: 0.3;
+  z-index: -3;
+}
+.seventh .move1 .img-student2 {
+  position: absolute;
+  left: 550px;
+  top: 130px;
+  z-index: -1;
+}
+.seventh .move1 .img-student3 {
+  position: absolute;
+  left: 1800px;
+  top: 130px;
+  opacity: 0.3;
+  z-index: -3;
+}
 .seventh h1 {
   font-weight: normal;
   font-size: 40px;
@@ -575,11 +598,17 @@ nav .btn-nav {
   display: none;
 }
 .seventh .move1 {
+  padding-top: 100px;
+}
+.seventh .move1 .mov-art-1 {
   width: 519px;
   height: 418px;
   background-color: #A54FA2;
   border-radius: 6px;
   padding: 40px 32px;
+  position: relative;
+  left: 200px;
+  top: -50px;
 }
 .seventh .move1 p, .seventh .move1 h3 {
   color: #fff;
@@ -605,6 +634,41 @@ nav .btn-nav {
   font-size: 16px;
   margin: 0;
   padding: 0;
+}
+.seventh .move1 img {
+  height: 500px;
+  width: 1199px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+}
+.seventh .move1 aside img {
+  max-width: 482px;
+  max-height: 482px;
+  border-radius: none;
+}
+.seventh .move1 aside {
+  width: 100vw;
+  position: absolute;
+  top: 450px;
+  left: calc(100vw - 300px);
+  z-index: -2;
+}
+.seventh .move1 .dotted-nav {
+  text-align: center;
+  font-size: 80px;
+  position: relative;
+  bottom: 90px;
+}
+.seventh .move1 .dotted-nav ul {
+  list-style: none;
+}
+.seventh .move1 .dotted-nav ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+.seventh .move1 .dotted-nav ul li a:hover, .seventh .move1 .dotted-nav ul li a:focus, .seventh .move1 .dotted-nav ul li a:active {
+  color: #3597FF;
 }
 
 body {

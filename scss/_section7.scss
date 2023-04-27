@@ -5,6 +5,33 @@
     text-align: left;
     letter-spacing: 1px;
 
+    & .move1 {
+        position: relative;
+    }
+
+    & .move1 .img-student {
+        position: absolute;
+        left: -700px;
+        top: 130px;
+        opacity: 0.3;
+        z-index: -3;
+    }
+
+    & .move1 .img-student2 {
+        position: absolute;
+        left: 550px;
+        top: 130px;
+        z-index: -1;
+    }
+
+    & .move1 .img-student3 {
+        position: absolute;
+        left: 1800px;
+        top: 130px;
+        opacity: 0.3;
+        z-index: -3;
+    }
+
     & h1 {
         font-weight: normal;
         font-size: 40px;
@@ -63,13 +90,20 @@
     }
 
     & .move1 {
-        width: 519px;
-        height: 418px;
-
-        background-color: $bg-move1;
-        border-radius: 6px;
-
-        padding: 40px 32px;
+        padding-top: 100px;
+        
+        & .mov-art-1 {
+            width: 519px;
+            height: 418px;
+    
+            background-color: $bg-move1;
+            border-radius: 6px;
+    
+            padding: 40px 32px;
+            position: relative;
+            left: 200px;
+            top: -50px;
+        }
 
         & p,
         & h3 {
@@ -107,5 +141,54 @@
             margin: 0;
             padding: 0;
         }
+
+        & img {
+            height: 500px;
+            width: 1199px;
+            object-fit: cover;
+
+            border-radius: 25px;
+        }
+
+        & aside img {
+            max-width: 482px;
+            max-height: 482px;
+            //object-fit: cover;
+
+            border-radius: none;
+        }
+
+        & aside {
+            width: 100vw;
+            
+            position: absolute;
+            top: 450px;
+            left: calc(100vw - 300px); 
+            z-index: -2;    
+        }
+
+        & .dotted-nav {
+            text-align: center;
+            font-size: 80px;
+
+            position: relative;
+            bottom: 90px;
+
+            & ul {
+                list-style: none;
+
+                & li a {
+                    text-decoration: none;
+                    color: rgba(255, 255, 255, 0.5);
+                }
+                & li a:hover,
+                & li a:focus,
+                & li a:active {
+                    color: $btn-nav-back;
+                }
+            }
+        }
     }
+
+
 }
