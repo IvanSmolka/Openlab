@@ -5,11 +5,17 @@
     text-align: left;
     letter-spacing: 1px;
 
-    & .move1 {
+    & .move1,
+    & .move2,
+    & .move3,
+    & .move4 {
         position: relative;
     }
 
-    & .move1 .img-student {
+    & .move1 .img-student,
+    & .move2 .img-student,
+    & .move3 .img-student,
+    & .move4 .img-student {
         position: absolute;
         left: -700px;
         top: 130px;
@@ -17,14 +23,20 @@
         z-index: -3;
     }
 
-    & .move1 .img-student2 {
+    & .move1 .img-student2,
+    & .move2 .img-student2,
+    & .move3 .img-student2,
+    & .move4 .img-student2 {
         position: absolute;
         left: 550px;
         top: 130px;
         z-index: -1;
     }
 
-    & .move1 .img-student3 {
+    & .move1 .img-student3,
+    & .move2 .img-student3,
+    & .move3 .img-student3,
+    & .move4 .img-student3 {
         position: absolute;
         left: 1800px;
         top: 130px;
@@ -89,10 +101,16 @@
         }
     }
 
-    & .move1 {
+    & .move1,
+    & .move2,
+    & .move3,
+    & .move4 {
         padding-top: 100px;
         
-        & .mov-art-1 {
+        & .mov-art-1,
+        & .mov-art-2,
+        & .mov-art-3,
+        & .mov-art-4 {
             width: 519px;
             height: 418px;
     
@@ -103,6 +121,28 @@
             position: relative;
             left: 200px;
             top: -50px;
+        }
+
+        & .mov-art-2 {
+            background-color: $bg-move2;
+
+            & .sign {
+                width: 179px;
+                height: 63px;
+                object-fit: cover;
+
+                position: relative;
+                top: 20px;
+                z-index: 0;
+            }
+        }
+
+        & .mov-art-3 {
+            background-color: $bg-move3;
+        }
+
+        & .mov-art-4 {
+            background-color: $bg-move4;
         }
 
         & p,
@@ -163,7 +203,7 @@
             
             position: absolute;
             top: 450px;
-            left: calc(100vw - 300px); 
+            left: calc(100vw - 275px); 
             z-index: -2;    
         }
 
@@ -183,7 +223,8 @@
                 }
                 & li a:hover,
                 & li a:focus,
-                & li a:active {
+                & li a:active,
+                & .activ {
                     color: $btn-nav-back;
                 }
             }

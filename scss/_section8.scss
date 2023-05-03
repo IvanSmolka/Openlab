@@ -1,0 +1,10 @@
+.eight {
+    font-family: 'SF Pro Display', sans-serif;
+    text-align: left;
+    letter-spacing: 1px;
+
+    & h2 {
+        text-align: center;
+        font-weight: normal;
+    }
+}

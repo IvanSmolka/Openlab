@@ -533,23 +533,23 @@ nav .btn-nav {
   text-align: left;
   letter-spacing: 1px;
 }
-.seventh .move1 {
+.seventh .move1, .seventh .move2, .seventh .move3, .seventh .move4 {
   position: relative;
 }
-.seventh .move1 .img-student {
+.seventh .move1 .img-student, .seventh .move2 .img-student, .seventh .move3 .img-student, .seventh .move4 .img-student {
   position: absolute;
   left: -700px;
   top: 130px;
   opacity: 0.3;
   z-index: -3;
 }
-.seventh .move1 .img-student2 {
+.seventh .move1 .img-student2, .seventh .move2 .img-student2, .seventh .move3 .img-student2, .seventh .move4 .img-student2 {
   position: absolute;
   left: 550px;
   top: 130px;
   z-index: -1;
 }
-.seventh .move1 .img-student3 {
+.seventh .move1 .img-student3, .seventh .move2 .img-student3, .seventh .move3 .img-student3, .seventh .move4 .img-student3 {
   position: absolute;
   left: 1800px;
   top: 130px;
@@ -597,10 +597,10 @@ nav .btn-nav {
 .seventh .grid article:hover .arrow, .seventh .grid article:focus .arrow, .seventh .grid article:active .arrow {
   display: none;
 }
-.seventh .move1 {
+.seventh .move1, .seventh .move2, .seventh .move3, .seventh .move4 {
   padding-top: 100px;
 }
-.seventh .move1 .mov-art-1 {
+.seventh .move1 .mov-art-1, .seventh .move1 .mov-art-2, .seventh .move1 .mov-art-3, .seventh .move1 .mov-art-4, .seventh .move2 .mov-art-1, .seventh .move2 .mov-art-2, .seventh .move2 .mov-art-3, .seventh .move2 .mov-art-4, .seventh .move3 .mov-art-1, .seventh .move3 .mov-art-2, .seventh .move3 .mov-art-3, .seventh .move3 .mov-art-4, .seventh .move4 .mov-art-1, .seventh .move4 .mov-art-2, .seventh .move4 .mov-art-3, .seventh .move4 .mov-art-4 {
   width: 519px;
   height: 418px;
   background-color: #A54FA2;
@@ -610,68 +610,100 @@ nav .btn-nav {
   left: 200px;
   top: -50px;
 }
-.seventh .move1 p, .seventh .move1 h3 {
+.seventh .move1 .mov-art-2, .seventh .move2 .mov-art-2, .seventh .move3 .mov-art-2, .seventh .move4 .mov-art-2 {
+  background-color: #3597FF;
+}
+.seventh .move1 .mov-art-2 .sign, .seventh .move2 .mov-art-2 .sign, .seventh .move3 .mov-art-2 .sign, .seventh .move4 .mov-art-2 .sign {
+  width: 179px;
+  height: 63px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  top: 20px;
+  z-index: 0;
+}
+.seventh .move1 .mov-art-3, .seventh .move2 .mov-art-3, .seventh .move3 .mov-art-3, .seventh .move4 .mov-art-3 {
+  background-color: #33A969;
+}
+.seventh .move1 .mov-art-4, .seventh .move2 .mov-art-4, .seventh .move3 .mov-art-4, .seventh .move4 .mov-art-4 {
+  background-color: #F9A94A;
+}
+.seventh .move1 p, .seventh .move1 h3, .seventh .move2 p, .seventh .move2 h3, .seventh .move3 p, .seventh .move3 h3, .seventh .move4 p, .seventh .move4 h3 {
   color: #fff;
 }
-.seventh .move1 .heading {
+.seventh .move1 .heading, .seventh .move2 .heading, .seventh .move3 .heading, .seventh .move4 .heading {
   font-size: 18px;
   padding: 0;
   padding-bottom: 16px;
   margin: 0;
   border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
 }
-.seventh .move1 .moto {
+.seventh .move1 .moto, .seventh .move2 .moto, .seventh .move3 .moto, .seventh .move4 .moto {
   font-size: 28px;
   padding: 24px 0;
   margin: 0;
 }
-.seventh .move1 .txt {
+.seventh .move1 .txt, .seventh .move2 .txt, .seventh .move3 .txt, .seventh .move4 .txt {
   font-size: 16px;
   padding-bottom: 48px;
   margin: 0;
 }
-.seventh .move1 .name, .seventh .move1 .school {
+.seventh .move1 .name, .seventh .move1 .school, .seventh .move2 .name, .seventh .move2 .school, .seventh .move3 .name, .seventh .move3 .school, .seventh .move4 .name, .seventh .move4 .school {
   font-size: 16px;
   margin: 0;
   padding: 0;
 }
-.seventh .move1 img {
+.seventh .move1 img, .seventh .move2 img, .seventh .move3 img, .seventh .move4 img {
   height: 500px;
   width: 1199px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 25px;
 }
-.seventh .move1 aside img {
+.seventh .move1 aside img, .seventh .move2 aside img, .seventh .move3 aside img, .seventh .move4 aside img {
   max-width: 482px;
   max-height: 482px;
   border-radius: none;
 }
-.seventh .move1 aside {
+.seventh .move1 aside, .seventh .move2 aside, .seventh .move3 aside, .seventh .move4 aside {
   width: 100vw;
   position: absolute;
   top: 450px;
-  left: calc(100vw - 300px);
+  left: calc(100vw - 275px);
   z-index: -2;
 }
-.seventh .move1 .dotted-nav {
+.seventh .move1 .dotted-nav, .seventh .move2 .dotted-nav, .seventh .move3 .dotted-nav, .seventh .move4 .dotted-nav {
   text-align: center;
   font-size: 80px;
   position: relative;
   bottom: 90px;
 }
-.seventh .move1 .dotted-nav ul {
+.seventh .move1 .dotted-nav ul, .seventh .move2 .dotted-nav ul, .seventh .move3 .dotted-nav ul, .seventh .move4 .dotted-nav ul {
   list-style: none;
 }
-.seventh .move1 .dotted-nav ul li a {
+.seventh .move1 .dotted-nav ul li a, .seventh .move2 .dotted-nav ul li a, .seventh .move3 .dotted-nav ul li a, .seventh .move4 .dotted-nav ul li a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
 }
-.seventh .move1 .dotted-nav ul li a:hover, .seventh .move1 .dotted-nav ul li a:focus, .seventh .move1 .dotted-nav ul li a:active {
+.seventh .move1 .dotted-nav ul li a:hover, .seventh .move1 .dotted-nav ul li a:focus, .seventh .move1 .dotted-nav ul li a:active, .seventh .move1 .dotted-nav ul .activ, .seventh .move2 .dotted-nav ul li a:hover, .seventh .move2 .dotted-nav ul li a:focus, .seventh .move2 .dotted-nav ul li a:active, .seventh .move2 .dotted-nav ul .activ, .seventh .move3 .dotted-nav ul li a:hover, .seventh .move3 .dotted-nav ul li a:focus, .seventh .move3 .dotted-nav ul li a:active, .seventh .move3 .dotted-nav ul .activ, .seventh .move4 .dotted-nav ul li a:hover, .seventh .move4 .dotted-nav ul li a:focus, .seventh .move4 .dotted-nav ul li a:active, .seventh .move4 .dotted-nav ul .activ {
   color: #3597FF;
+}
+
+.eight {
+  font-family: "SF Pro Display", sans-serif;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.eight h2 {
+  text-align: center;
+  font-weight: normal;
 }
 
 body {
   width: 100%;
   overflow-x: hidden;
+}
+
+.disabled {
+  display: none;
 }
