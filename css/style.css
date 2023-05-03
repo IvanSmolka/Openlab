@@ -693,10 +693,107 @@ nav .btn-nav {
   font-family: "SF Pro Display", sans-serif;
   text-align: left;
   letter-spacing: 1px;
+  width: 1320px;
+  margin: 0 auto;
+  padding: 48px 12px;
+  border-bottom: solid 1px #d7eaff;
 }
-.eight h2 {
+.eight .header {
   text-align: center;
+  margin: 0;
+  margin-bottom: 48px;
+  padding: 0 12px;
+}
+.eight .header h2 {
   font-weight: normal;
+  font-size: 40px;
+  color: #212529;
+  margin: 0;
+  margin-bottom: 48px;
+}
+.eight .header p {
+  font-size: 16px;
+  color: #566b8d;
+  margin: 0 48px 48px 48px;
+  padding: 0 48px;
+}
+.eight aside {
+  color: #212529;
+}
+.eight aside .line {
+  width: 50px;
+  height: 1px;
+  background-color: rgba(86, 107, 141, 0.5);
+}
+.eight .slide1, .eight .slide2, .eight .slide3 {
+  display: flex;
+  justify-content: center;
+}
+.eight .slide1 .content1, .eight .slide1 .content2, .eight .slide2 .content1, .eight .slide2 .content2, .eight .slide3 .content1, .eight .slide3 .content2 {
+  width: 660px;
+  height: 450px;
+}
+.eight .slide1 .content1 h2, .eight .slide1 .content2 h2, .eight .slide2 .content1 h2, .eight .slide2 .content2 h2, .eight .slide3 .content1 h2, .eight .slide3 .content2 h2 {
+  width: 416px;
+  font-size: 28px;
+  color: #212529;
+  margin: 0;
+  margin-bottom: 48px;
+}
+.eight .slide1 .content1 p, .eight .slide1 .content2 p, .eight .slide2 .content1 p, .eight .slide2 .content2 p, .eight .slide3 .content1 p, .eight .slide3 .content2 p {
+  width: 416px;
+  font-size: 16px;
+  color: #566b8d;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.eight .slide1 .content2 iframe, .eight .slide2 .content2 iframe, .eight .slide3 .content2 iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.eight .disabled {
+  display: none;
+}
+.eight .after-slide .dotted-nav {
+  height: 30px;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  bottom: 40px;
+}
+.eight .after-slide .dotted-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.eight .after-slide .dotted-nav ul li a {
+  text-decoration: none;
+  color: rgba(53, 151, 255, 0.2);
+}
+.eight .after-slide .dotted-nav ul li a:hover, .eight .after-slide .dotted-nav ul li a:focus, .eight .after-slide .dotted-nav ul li a:active, .eight .after-slide .dotted-nav ul .activ {
+  color: #3597FF;
+}
+.eight .after-slide a {
+  text-decoration: none;
+  color: #3597FF;
+  line-height: 22px;
+}
+.eight .after-slide a img {
+  position: relative;
+  bottom: -2px;
+}
+
+.nine {
+  position: relative;
+  width: 1320px;
+  margin: 0 auto;
+}
+.nine .shape-left {
+  position: absolute;
+  left: -500px;
+  top: -150px;
 }
 
 body {

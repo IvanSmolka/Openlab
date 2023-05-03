@@ -1,0 +1,11 @@
+.nine {
+    position: relative;
+    width: 1320px;
+    margin: 0 auto;
+
+    & .shape-left {
+        position: absolute;
+        left: -500px;
+        top: -150px;
+    }
+}

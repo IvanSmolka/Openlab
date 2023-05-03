@@ -2,9 +2,130 @@
     font-family: 'SF Pro Display', sans-serif;
     text-align: left;
     letter-spacing: 1px;
+    width: 1320px;
+    margin: 0 auto;
+    padding: 48px 12px;
 
-    & h2 {
+    border-bottom: solid 1px $header-border;
+
+    & .header {
         text-align: center;
-        font-weight: normal;
+
+        margin: 0;
+        margin-bottom: 48px;       
+        padding: 0 12px;
+
+        & h2 {
+            font-weight: normal;            
+            font-size: 40px;
+            color: $text-black;
+
+            margin: 0;
+            margin-bottom: 48px;
+         }
+        & p {
+            font-size: 16px;
+            color: $text-gray;
+
+            margin: 0 48px 48px 48px;
+            padding: 0 48px;
+        }
     }
+
+    & aside {
+        color: $text-black;
+
+        & .line {
+            width: 50px;
+            height: 1px;
+            background-color: rgba(86, 107, 141, 0.5);
+        }
+    }
+
+    & .slide1,
+    & .slide2,
+    & .slide3 {
+
+        display: flex;
+        justify-content: center;
+
+        & .content1,
+        & .content2 {
+            width: 660px;
+            height: 450px;
+
+            & h2 {
+                width: 416px;
+
+                font-size: 28px;
+                color: $text-black;
+
+                margin: 0;
+                margin-bottom: 48px;
+            }
+            & p {
+                width: 416px;
+
+                font-size: 16px;
+                color: $text-gray;
+                line-height: 1.5;
+
+                margin: 0;
+                margin-bottom: 16px;
+            }
+        }
+
+        & .content2 iframe {
+            display: block;
+            margin: 0 auto;
+            border-radius: 20px;
+        }
+    }
+
+    & .disabled {
+        display: none;
+    }
+
+    & .after-slide {
+        & .dotted-nav {
+            height: 30px;
+    
+            text-align: center;
+            font-size: 50px;
+    
+            position: relative;
+            bottom: 40px;
+    
+            & ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+    
+                & li a {
+                    text-decoration: none;
+                    color: rgba(53, 151, 255, 0.2);
+                }
+                & li a:hover,
+                & li a:focus,
+                & li a:active,
+                & .activ {
+                    color: $btn-nav-back;
+                }
+            }
+        }
+
+        & a {
+            text-decoration: none;
+            color: $btn-nav-back;
+            line-height: 22px;
+
+            & img {
+                position: relative;
+                bottom: -2px;
+            }
+        }
+    }
+
+
+
 }
